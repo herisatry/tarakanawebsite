@@ -22,9 +22,28 @@ div {
     background-size: cover;
     height: 100vh;
     display: grid;
+    grid-template-columns: 10% 1fr 1fr 20%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: " header header header header" ". . . tel_number" ". . card_content card_content" ". . card_content card_content" "content content card_content card_content" "footer footer footer footer";
 }
 
 .header {
     grid-area: "header";
     display: grid;
+}
+
+.tel_number {
+    grid-area: "tel_number";
+}
+
+.card_content {
+    grid-area: "card_content";
+}
+
+.content {
+    grid-area: "content";
+}
+
+.footer {
+    grid-area: "footer";
 }
