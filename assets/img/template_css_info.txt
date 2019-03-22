@@ -1,0 +1,13 @@
+Color code & more
+-----------------
+Dark_gray_rectangle : #292828
+text-color : #EEEEEE
+navbar_rectangle : #FFFFFF
+orange_rectangle : #FF4500
+
+/*orange rectangle width : 762px Height : 634px */
+/*navbar width : 762px height : 75px */
+navbar_text font-size : 25pt
+H1 font-size : 120pt
+
+font-family : bebas neue
